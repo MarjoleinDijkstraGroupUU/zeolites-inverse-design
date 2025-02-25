@@ -178,7 +178,7 @@ def get_seed_size(seed_file, directory):
 
 def get_fitness(directory):
     zeolite = np.genfromtxt(directory+"/COLVAR")[:, 8]
-    zeolite_size = np.mean(zeolite[-20:])  # average of the last 20 values
+    zeolite_size = np.mean(zeolite[-25:])  # average of the last 25 values
     fitness = -1 * zeolite_size/T_size
     return zeolite_size, fitness
 
