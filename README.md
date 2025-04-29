@@ -7,6 +7,15 @@ This repository is a demo for zeolite inverse design for the simplest zeolite, S
 
 ## File structure
 - `envs` is a directory to put in `unique environments` files. Here we already added 6 unique environments of SOD. You can extract these environments files for your desired frameworks using [EnvironmentFinder](https://github.com/PabloPiaggi/EnvironmentFinder).
+  > If there is a problem when running `environmentfinder`, you could `cat \path\to\environmentfinder`, you will see
+  ```
+  #!/bin/bash
+
+  location=`pip show environmentfinder | grep "Location" | awk '{print $2}'`
+
+  voila $location/environmentfinder/App.ipynb --VoilaConfiguration.file_whitelist="['.*download.zip']"
+  ```
+  Then you can change `file_whitelist` to `file_allowlist` with vim, this should fix the issue.
 - `inverse_design.py` is the main script to run the inverse design workflow. Please change the job submission format to match your job system.
 - `sod_seed_23.data` is the seed file used in the bias simulations.
 - `self_assembly.py` is to run self-assembly simulations. You could modify the criteria to screen the high-fitness solutions.
