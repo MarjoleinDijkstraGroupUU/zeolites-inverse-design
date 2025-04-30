@@ -7,7 +7,7 @@ This repository is a demo for zeolite inverse design for the simplest zeolite, S
 
 ## File structure
 - `envs` is a directory to put in `unique environments` files. Here we already added 6 unique environments of SOD. You can extract these environments files for your desired frameworks using [EnvironmentFinder](https://github.com/PabloPiaggi/EnvironmentFinder).
-  > If there is a problem when running `environmentfinder`, you could `cat \path\to\environmentfinder`, you will see
+  > If there is a problem when running `environmentfinder`, you could `cat /path/to/environmentfinder`, you will see
   ```
   #!/bin/bash
 
