@@ -48,3 +48,16 @@ Add `python inverse_design.py` command line in your submitting script, depending
 Once you get nice high-fitness solutions, you can run the self-assembly simulations by:
 
 `python self_assembly.py`
+
+
+## BibTex
+
+```tex
+@article{wang2025inverse,
+  title={Inverse Design Method with Enhanced Sampling for Complex Open Crystals: Application to Novel Zeolite Self-assembly},
+  author={Wang, Chaohong and Pérez de Alba Ortíz, Alberto and Dijkstra, Marjolein},
+  journal={ACS nano},
+  year={2025},
+  publisher={ACS Publications}
+}
+```
