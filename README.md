@@ -57,6 +57,9 @@ Once you get nice high-fitness solutions, you can run the self-assembly simulati
   title={Inverse Design Method with Enhanced Sampling for Complex Open Crystals: Application to Novel Zeolite Self-assembly},
   author={Wang, Chaohong and Pérez de Alba Ortíz, Alberto and Dijkstra, Marjolein},
   journal={ACS nano},
+  volume={19},
+  number={18},
+  pages={17423--17437},
   year={2025},
   publisher={ACS Publications}
 }
